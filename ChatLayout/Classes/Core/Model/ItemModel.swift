@@ -13,7 +13,7 @@
 import Foundation
 import UIKit
 
-struct ItemModel {
+struct ItemModel: Sendable {
     struct Configuration {
         let alignment: ChatItemAlignment
 
